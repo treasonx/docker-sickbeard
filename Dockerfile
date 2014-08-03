@@ -1,4 +1,5 @@
 FROM ubuntu
+RUN apt-get update
 RUN apt-get install -y git-core
 RUN apt-get install -y python-cheetah
 RUN git clone git://github.com/midgetspy/Sick-Beard.git my-sickbeard-install
